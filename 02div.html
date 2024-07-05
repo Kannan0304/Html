@@ -1,72 +1,93 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello world</h1>
-    <script src="index.js">
-    </script>
-</body>
-</html>-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Div Table</title>
+        <style>
+            .table {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                border: 1px solid black;
+            }
+            .header, .cell {
+                text-align: center;
+                border: 1px solid black;
+            }
+            .header {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="table">
+            <div class="header">Time</div>
+            <div class="header">Monday</div>
+            <div class="header">Tuesday</div>
+            <div class="header">Wednesday</div>
+            <div class="header">Thursday</div>
+            <div class="header">Friday</div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timetable</title>
-</head>
-<body>
-    <div>
-    <table border="2">
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>06:00 - 07:30</td>
-                <td colspan="5" align="center">Refreshment</td>
-            </tr>
-            <tr>
-                <td>07:30 - 09:00</td>
-                <td colspan="5" align="center">Study</td>
-            </tr>
-            <tr>
-                <td>09:00 - 09:45</td>
-                <td colspan="5" align="center">office ready</td>
-            </tr>
-            <tr>
-                <td>10:00 - 13:00</td>
-                <td colspan="5" align="center">Office-1st half</td>
-            </tr>
-            <tr>
-                <td>13:00 - 14:00</td>
-                <td colspan="5" align="center">lunch </td>
-            </tr>
-            <tr>
-                <td>14:00 - 19:00</td>
-                <td colspan="5" align="center">office-2nd half</td>
-            </tr>
-            <tr>
-                <td>20:00 - 21:00</td>
-                <td colspan="5" align="center">Room+Dinner</td>
-            </tr>
-            <tr>
-                <td>21:00 - 22:00</td>
-                <td colspan="5" align="center">dayRevise</td>
-            </tr>
-        </tbody>
-    </table>
-    </div>
-</body>
-</html>
+
+    
+            <div class="cell">06:00 - 07:30</div>
+            <div class="cell">Refreshment</div>
+            <div class="cell">Refreshment</div>
+            <div class="cell">Refreshment</div>
+            <div class="cell">Refreshment</div>
+            <div class="cell">Refreshment</div>
+    
+            <div class="cell">07:30 - 09:00</div>
+            <div class="cell">Study</div>
+            <div class="cell">Study</div>
+            <div class="cell">Study</div>
+            <div class="cell">Study</div>
+            <div class="cell">Study</div>
+
+            <div class="cell">09:00 - 09:45</div>
+            <div class="cell">office ready</div>
+            <div class="cell">office ready</div>
+            <div class="cell">office ready</div>
+            <div class="cell">office ready</div>
+            <div class="cell">office ready</div>
+
+            <div class="cell">10:00 - 13:00</div>
+            <div class="cell">Office-1st half</div>
+            <div class="cell">Office-1st half</div>
+            <div class="cell">Office-1st half</div>
+            <div class="cell">Office-1st half</div>
+            <div class="cell">Office-1st half</div>
+
+            <div class="cell">13:00 - 14:00</div>
+            <div class="cell">lunch</div>
+            <div class="cell">lunch</div>
+            <div class="cell">lunch</div>
+            <div class="cell">lunch</div>
+            <div class="cell">lunch</div>
+
+            <div class="cell">14:00 - 19:00</div>
+            <div class="cell">office-2nd half</div>
+            <div class="cell">office-2nd half</div>
+            <div class="cell">office-2nd half</div>
+            <div class="cell">office-2nd half</div>
+            <div class="cell">office-2nd half</div>
+
+            <div class="cell">20:00 - 21:00</div>
+            <div class="cell">Room+Dinner</div>
+            <div class="cell">Room+Dinner</div>
+            <div class="cell">Room+Dinner</div>
+            <div class="cell">Room+Dinner</div>
+            <div class="cell">Room+Dinner</div>
+
+            <div class="cell">21:00 - 22:00</div>
+            <div class="cell">dayRevise</div>
+            <div class="cell">dayRevise</div>
+            <div class="cell">dayRevise</div>
+            <div class="cell">dayRevise</div>
+            <div class="cell">dayRevise</div>
+        </div>
+    </body>
+    </html>
+    ```
+    
+  
